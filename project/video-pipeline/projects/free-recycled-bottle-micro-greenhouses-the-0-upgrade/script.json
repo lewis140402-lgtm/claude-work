@@ -1,0 +1,77 @@
+{
+  "topic": "Free recycled-bottle micro-greenhouses \u2014 the \u00a30 upgrade",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "This upgrade cost nothing. It's a bottle from the recycling bin. Young seedlings die easy \u2014 one cold night or one slug is all it takes. Cut the bottom off a clear plastic bottle and push it into the soil over a seedling, cap loose for ventilation. Each plant gets its own tiny greenhouse \u2014 a few degrees warmer, safe from slugs, made from something you were about to throw away. In a cold climate, this trick keeps tender seedlings alive weeks earlier in spring \u2014 for free. This is one of the bonus sections in the full build plans \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "This upgrade cost nothing. It's a bottle from the recycling bin.",
+      "search_terms": [
+        "plastic bottle recycling",
+        "vegetable garden raised beds",
+        "seedling plant"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "Young seedlings die easy \u2014 one cold night or one slug is all it takes.",
+      "search_terms": [
+        "seedling plant",
+        "frost on plants",
+        "garden pest"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "Cut the bottom off a clear plastic bottle and push it into the soil over a seedling, cap loose for ventilation.",
+      "search_terms": [
+        "plastic bottle recycling",
+        "seedling plant",
+        "garden tools"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "Each plant gets its own tiny greenhouse \u2014 a few degrees warmer, safe from slugs, made from something you were about to throw away.",
+      "search_terms": [
+        "greenhouse tomato plants",
+        "healthy vegetable plants",
+        "seedling plant"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "payoff",
+      "text": "In a cold climate, this trick keeps tender seedlings alive weeks earlier in spring \u2014 for free.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "sunrise over garden",
+        "healthy vegetable plants"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "cta",
+      "text": "This is one of the bonus sections in the full build plans \u2014 link in bio.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "solar panel installation",
+        "greenhouse tomato plants"
+      ]
+    }
+  ],
+  "title_youtube": "Free recycled-bottle micro-greenhouses \u2014 the \u00a30 upgrade | Solar Smart Garden",
+  "title_tiktok": "Free recycled-bottle micro-greenhouses \u2014 the \u00a30 upgrade",
+  "description": "A free recycled-bottle trick that keeps seedlings alive weeks earlier in spring. Full build plans and more bonus upgrades linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

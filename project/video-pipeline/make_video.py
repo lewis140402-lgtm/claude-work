@@ -17,7 +17,7 @@ import fetch_footage
 import generate_script
 import generate_subtitles
 import generate_voiceover
-from common import slugify
+from common import project_dir, slugify
 
 
 def main():
@@ -26,8 +26,12 @@ def main():
     args = parser.parse_args()
 
     slug = slugify(args.topic)
-    print(f"=== [1/5] Script: {args.topic} ===")
-    generate_script.save_script(slug, generate_script.generate(args.topic))
+    script_path = project_dir(slug) / "script.json"
+    if script_path.exists():
+        print(f"=== [1/5] Script: using existing {script_path} ===")
+    else:
+        print(f"=== [1/5] Script: {args.topic} (generating from template) ===")
+        generate_script.save_script(slug, generate_script.generate(args.topic))
 
     print(f"=== [2/5] Footage ===")
     fetch_footage.fetch_all(slug)

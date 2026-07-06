@@ -1,0 +1,108 @@
+{
+  "topic": "How this Raspberry Pi decides which garden bed to water",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "This garden waters itself, and the brain behind it costs seventeen pounds. Most watering systems run on a timer. They flood beds after rain and leave them dry in a heatwave, because a clock doesn't know what the soil actually needs. This one reads the soil instead. A capacitive moisture sensor sits in each bed, wired through an analogue-to-digital board so the Pi can actually understand it. Every thirty minutes, the Pi checks all five beds. Any bed below its moisture target gets its valve opened and the pump switched on, one bed at a time. It stops the moment the soil is wet enough, or after a safety timeout \u2014 whichever comes first. No flooding, no guessing. The whole thing runs off one small solar panel, and it won an engineering award for exactly this reason. Full build plans, parts list and the actual code \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "This garden waters itself, and the brain behind it costs seventeen pounds.",
+      "search_terms": [
+        "raspberry pi close up",
+        "vegetable garden raised beds",
+        "circuit board macro"
+      ],
+      "start": 0.0,
+      "end": 4.8,
+      "duration": 4.8
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "Most watering systems run on a timer. They flood beds after rain and leave them dry in a heatwave, because a clock doesn't know what the soil actually needs.",
+      "search_terms": [
+        "garden watering can",
+        "dry soil close up",
+        "sprinkler watering"
+      ],
+      "start": 4.8,
+      "end": 16.41,
+      "duration": 11.61
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "This one reads the soil instead. A capacitive moisture sensor sits in each bed, wired through an analogue-to-digital board so the Pi can actually understand it.",
+      "search_terms": [
+        "soil moisture sensor",
+        "electronics soldering",
+        "garden sensor installation"
+      ],
+      "start": 16.41,
+      "end": 26.81,
+      "duration": 10.41
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "Every thirty minutes, the Pi checks all five beds. Any bed below its moisture target gets its valve opened and the pump switched on, one bed at a time.",
+      "search_terms": [
+        "solenoid valve",
+        "water pump close up",
+        "drip irrigation system"
+      ],
+      "start": 26.81,
+      "end": 38.42,
+      "duration": 11.61
+    },
+    {
+      "id": 5,
+      "beat": "mechanism_3",
+      "text": "It stops the moment the soil is wet enough, or after a safety timeout \u2014 whichever comes first. No flooding, no guessing.",
+      "search_terms": [
+        "dripping water plant",
+        "vegetable garden raised beds",
+        "timer clock"
+      ],
+      "start": 38.42,
+      "end": 47.22,
+      "duration": 8.8
+    },
+    {
+      "id": 6,
+      "beat": "payoff",
+      "text": "The whole thing runs off one small solar panel, and it won an engineering award for exactly this reason.",
+      "search_terms": [
+        "solar panel installation",
+        "sunrise over garden",
+        "award trophy"
+      ],
+      "start": 47.22,
+      "end": 54.83,
+      "duration": 7.6
+    },
+    {
+      "id": 7,
+      "beat": "cta",
+      "text": "Full build plans, parts list and the actual code \u2014 link in bio.",
+      "search_terms": [
+        "raspberry pi close up",
+        "vegetable garden raised beds",
+        "solar panel close up"
+      ],
+      "start": 54.83,
+      "end": 60.03,
+      "duration": 5.2
+    }
+  ],
+  "title_youtube": "How this Raspberry Pi decides which garden bed to water | Solar Smart Garden",
+  "title_tiktok": "How this Raspberry Pi decides which garden bed to water",
+  "description": "How a Raspberry Pi decides which garden bed actually needs water. Full build plans for the award-winning Solar Smart Garden linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

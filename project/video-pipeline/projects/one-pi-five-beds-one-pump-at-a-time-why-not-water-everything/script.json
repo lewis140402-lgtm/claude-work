@@ -1,0 +1,77 @@
+{
+  "topic": "One Pi, five beds, one pump at a time \u2014 why not water everything at once",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "Five garden beds, one pump, one bed watered at a time. Here's why that's the better design. A pump big enough to feed five beds at once is expensive, noisy, and mostly overkill for four fifths of the day. Instead, the Pi opens one bed's valve, runs a small pump, waters that bed properly, then moves to the next. A small pump delivers strong, even pressure to one bed easily \u2014 and the whole five-bed round still finishes in under fifteen minutes. Cheaper pump, quieter system, and every bed still gets watered properly, every single day. The full wiring and parts list for this exact setup is in the build plans \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "Five garden beds, one pump, one bed watered at a time. Here's why that's the better design.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "water pump close up",
+        "raspberry pi close up"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "A pump big enough to feed five beds at once is expensive, noisy, and mostly overkill for four fifths of the day.",
+      "search_terms": [
+        "water pump close up",
+        "irrigation pipe fitting",
+        "electronics workshop"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "Instead, the Pi opens one bed's valve, runs a small pump, waters that bed properly, then moves to the next.",
+      "search_terms": [
+        "solenoid valve",
+        "drip irrigation system",
+        "raspberry pi close up"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "A small pump delivers strong, even pressure to one bed easily \u2014 and the whole five-bed round still finishes in under fifteen minutes.",
+      "search_terms": [
+        "water pump close up",
+        "dripping water plant",
+        "vegetable garden raised beds"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "payoff",
+      "text": "Cheaper pump, quieter system, and every bed still gets watered properly, every single day.",
+      "search_terms": [
+        "healthy vegetable plants",
+        "vegetable garden raised beds",
+        "sunrise over garden"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "cta",
+      "text": "The full wiring and parts list for this exact setup is in the build plans \u2014 link in bio.",
+      "search_terms": [
+        "raspberry pi close up",
+        "solar panel installation",
+        "vegetable garden raised beds"
+      ]
+    }
+  ],
+  "title_youtube": "One Pi, five beds, one pump at a time \u2014 why not water everything at once | Solar Smart Garden",
+  "title_tiktok": "One Pi, five beds, one pump at a time \u2014 why not water everything at once",
+  "description": "Why watering one garden bed at a time beats one big pump for all of them. Full build plans linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

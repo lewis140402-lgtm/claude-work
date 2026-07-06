@@ -1,0 +1,77 @@
+{
+  "topic": "What \u00a3300 of solar and a Raspberry Pi can actually run",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "Three hundred pounds. A solar panel, a Raspberry Pi, and five garden beds that water themselves. That sounds like a lot for a garden \u2014 until you know what's actually inside it. A fifty watt solar panel and battery for the power, a seventeen pound Raspberry Pi and soil sensors for the brain. A pump, a filter, and drip lines to five beds, each with its own valve so it waters only what's dry. The result: five independently-watered vegetable beds, running on nothing but sunlight, for less than a season of hosepipe bills. Full parts list with real UK prices \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "Three hundred pounds. A solar panel, a Raspberry Pi, and five garden beds that water themselves.",
+      "search_terms": [
+        "solar panel installation",
+        "raspberry pi close up",
+        "vegetable garden raised beds"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "That sounds like a lot for a garden \u2014 until you know what's actually inside it.",
+      "search_terms": [
+        "calculator close up",
+        "electronics workshop",
+        "garden tools"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "A fifty watt solar panel and battery for the power, a seventeen pound Raspberry Pi and soil sensors for the brain.",
+      "search_terms": [
+        "solar panel close up",
+        "raspberry pi close up",
+        "soil moisture sensor"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "A pump, a filter, and drip lines to five beds, each with its own valve so it waters only what's dry.",
+      "search_terms": [
+        "water pump close up",
+        "drip irrigation system",
+        "solenoid valve"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "payoff",
+      "text": "The result: five independently-watered vegetable beds, running on nothing but sunlight, for less than a season of hosepipe bills.",
+      "search_terms": [
+        "healthy vegetable plants",
+        "vegetable garden raised beds",
+        "sunrise over garden"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "cta",
+      "text": "Full parts list with real UK prices \u2014 link in bio.",
+      "search_terms": [
+        "solar panel installation",
+        "raspberry pi close up",
+        "vegetable garden raised beds"
+      ]
+    }
+  ],
+  "title_youtube": "What \u00a3300 of solar and a Raspberry Pi can actually run | Solar Smart Garden",
+  "title_tiktok": "What \u00a3300 of solar and a Raspberry Pi can actually run",
+  "description": "What three hundred pounds of solar and a Raspberry Pi can actually build. Full parts list and build plans linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

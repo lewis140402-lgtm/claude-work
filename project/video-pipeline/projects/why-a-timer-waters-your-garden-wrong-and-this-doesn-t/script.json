@@ -1,0 +1,77 @@
+{
+  "topic": "Why a timer waters your garden wrong (and this doesn't)",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "A watering timer doesn't know if it rained yesterday. This system does. Set a timer for fifteen minutes twice a day and you'll flood your beds in a wet week and starve them in a heatwave \u2014 it waters on a schedule, not on need. This system checks actual soil moisture in each bed with a capacitive sensor, not a clock. Only a bed that's genuinely dry gets watered, and only until it hits its target \u2014 different crops, different targets, all handled per bed. The result: every bed gets exactly what it needs, logged to a file so you can actually see what your garden's been doing. It's solar-powered, off-grid, and it won an engineering award. Full plans linked in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "A watering timer doesn't know if it rained yesterday. This system does.",
+      "search_terms": [
+        "timer clock",
+        "rain on plants",
+        "vegetable garden raised beds"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "Set a timer for fifteen minutes twice a day and you'll flood your beds in a wet week and starve them in a heatwave \u2014 it waters on a schedule, not on need.",
+      "search_terms": [
+        "sprinkler watering",
+        "dry cracked soil",
+        "garden hose"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "This system checks actual soil moisture in each bed with a capacitive sensor, not a clock.",
+      "search_terms": [
+        "soil moisture sensor",
+        "raspberry pi close up",
+        "electronics close up"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "Only a bed that's genuinely dry gets watered, and only until it hits its target \u2014 different crops, different targets, all handled per bed.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "drip irrigation system",
+        "solenoid valve"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "payoff",
+      "text": "The result: every bed gets exactly what it needs, logged to a file so you can actually see what your garden's been doing.",
+      "search_terms": [
+        "garden log spreadsheet",
+        "healthy vegetable plants",
+        "greenhouse tomato plants"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "cta",
+      "text": "It's solar-powered, off-grid, and it won an engineering award. Full plans linked in bio.",
+      "search_terms": [
+        "solar panel installation",
+        "award trophy",
+        "vegetable garden raised beds"
+      ]
+    }
+  ],
+  "title_youtube": "Why a timer waters your garden wrong (and this doesn't) | Solar Smart Garden",
+  "title_tiktok": "Why a timer waters your garden wrong (and this doesn't)",
+  "description": "Why timer-based watering gets it wrong, and how a soil-sensing Raspberry Pi system fixes it. Full build plans linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

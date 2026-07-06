@@ -1,0 +1,77 @@
+{
+  "topic": "What happens when a soil sensor fails (real troubleshooting)",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "One morning, this bed wouldn't stop watering. Here's what actually happened. A soil sensor pulled halfway out of the ground reads bone dry \u2014 even sitting in a puddle, the system thinks it needs more water. The fix is always the same: re-seat the sensor properly in the soil, and check the cable for damage where it enters the ground. The other common failure is calibration drift \u2014 every sensor reads slightly differently, so dry and wet values get set per sensor, not assumed. Once you know the two or three things that actually go wrong, fixing this takes minutes, not an afternoon. The full troubleshooting guide \u2014 every real failure, symptom to fix \u2014 is in the build plans, link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "One morning, this bed wouldn't stop watering. Here's what actually happened.",
+      "search_terms": [
+        "dripping water plant",
+        "vegetable garden raised beds",
+        "garden sensor installation"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "A soil sensor pulled halfway out of the ground reads bone dry \u2014 even sitting in a puddle, the system thinks it needs more water.",
+      "search_terms": [
+        "soil moisture sensor",
+        "dry cracked soil",
+        "garden hose"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "The fix is always the same: re-seat the sensor properly in the soil, and check the cable for damage where it enters the ground.",
+      "search_terms": [
+        "electronics soldering",
+        "garden sensor installation",
+        "raspberry pi close up"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "The other common failure is calibration drift \u2014 every sensor reads slightly differently, so dry and wet values get set per sensor, not assumed.",
+      "search_terms": [
+        "circuit board macro",
+        "calculator close up",
+        "electronics close up"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "payoff",
+      "text": "Once you know the two or three things that actually go wrong, fixing this takes minutes, not an afternoon.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "healthy vegetable plants",
+        "garden tools"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "cta",
+      "text": "The full troubleshooting guide \u2014 every real failure, symptom to fix \u2014 is in the build plans, link in bio.",
+      "search_terms": [
+        "raspberry pi close up",
+        "solar panel installation",
+        "vegetable garden raised beds"
+      ]
+    }
+  ],
+  "title_youtube": "What happens when a soil sensor fails (real troubleshooting) | Solar Smart Garden",
+  "title_tiktok": "What happens when a soil sensor fails (real troubleshooting)",
+  "description": "Real troubleshooting for a soil sensor failure in a solar-powered garden system. Full guide linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

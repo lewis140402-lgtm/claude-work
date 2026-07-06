@@ -1,0 +1,87 @@
+{
+  "topic": "Sizing a solar panel and battery for an off-grid garden \u2014 the actual maths",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "Sizing solar looks like black magic. It's actually three sums. Get it wrong and you're either paying for capacity you'll never use, or watching your battery die on the third cloudy day. First, your daily energy budget: a Raspberry Pi running all day, plus a pump and valves running for minutes, add up to about forty two watt-hours a day. Divide that by your sun hours and a seventy percent efficiency margin, and a fifty watt panel covers it with real headroom to spare. For the battery, size for three cloudy days in a row \u2014 that's a twenty amp-hour battery at twelve volts, lead-acid or lithium. That's it. Three sums, and your garden runs through a grey week without blinking. The full sizing calculator is in the parts list spreadsheet \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "Sizing solar looks like black magic. It's actually three sums.",
+      "search_terms": [
+        "solar panel close up",
+        "calculator close up",
+        "sunrise over garden"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "Get it wrong and you're either paying for capacity you'll never use, or watching your battery die on the third cloudy day.",
+      "search_terms": [
+        "solar panel installation",
+        "battery close up",
+        "cloudy sky"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "First, your daily energy budget: a Raspberry Pi running all day, plus a pump and valves running for minutes, add up to about forty two watt-hours a day.",
+      "search_terms": [
+        "raspberry pi close up",
+        "water pump close up",
+        "circuit board macro"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "Divide that by your sun hours and a seventy percent efficiency margin, and a fifty watt panel covers it with real headroom to spare.",
+      "search_terms": [
+        "solar panel installation",
+        "sunrise over garden",
+        "solar panel close up"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "mechanism_3",
+      "text": "For the battery, size for three cloudy days in a row \u2014 that's a twenty amp-hour battery at twelve volts, lead-acid or lithium.",
+      "search_terms": [
+        "battery close up",
+        "electronics workshop",
+        "garden shed"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "payoff",
+      "text": "That's it. Three sums, and your garden runs through a grey week without blinking.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "solar panel installation",
+        "healthy vegetable plants"
+      ]
+    },
+    {
+      "id": 7,
+      "beat": "cta",
+      "text": "The full sizing calculator is in the parts list spreadsheet \u2014 link in bio.",
+      "search_terms": [
+        "calculator close up",
+        "solar panel close up",
+        "raspberry pi close up"
+      ]
+    }
+  ],
+  "title_youtube": "Sizing a solar panel and battery for an off-grid garden \u2014 the actual maths | Solar Smart Garden",
+  "title_tiktok": "Sizing a solar panel and battery for an off-grid garden \u2014 the actual maths",
+  "description": "The actual maths behind sizing a solar panel and battery for an off-grid garden system. Full calculator and build plans linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}
