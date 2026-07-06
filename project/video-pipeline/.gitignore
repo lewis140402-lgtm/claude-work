@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+cache/
+output/
+projects/*/footage/
+projects/*/voiceover.mp3
+projects/*/*.mp4
