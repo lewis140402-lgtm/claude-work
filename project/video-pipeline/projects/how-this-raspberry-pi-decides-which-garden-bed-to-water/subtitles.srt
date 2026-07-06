@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:02,400
+This garden waters itself, and the
+
+2
+00:00:02,400 --> 00:00:04,800
+brain behind it costs seventeen pounds.
+
+3
+00:00:04,800 --> 00:00:07,122
+Most watering systems run on a
+
+4
+00:00:07,122 --> 00:00:09,444
+timer. They flood beds after rain
+
+5
+00:00:09,444 --> 00:00:11,766
+and leave them dry in a
+
+6
+00:00:11,766 --> 00:00:14,088
+heatwave, because a clock doesn't know
+
+7
+00:00:14,088 --> 00:00:16,410
+what the soil actually needs.
+
+8
+00:00:16,410 --> 00:00:18,490
+This one reads the soil instead.
+
+9
+00:00:18,490 --> 00:00:20,570
+A capacitive moisture sensor sits in
+
+10
+00:00:20,570 --> 00:00:22,650
+each bed, wired through an analogue-to-digital
+
+11
+00:00:22,650 --> 00:00:24,730
+board so the Pi can actually
+
+12
+00:00:24,730 --> 00:00:26,810
+understand it.
+
+13
+00:00:26,810 --> 00:00:29,132
+Every thirty minutes, the Pi checks
+
+14
+00:00:29,132 --> 00:00:31,454
+all five beds. Any bed below
+
+15
+00:00:31,454 --> 00:00:33,776
+its moisture target gets its valve
+
+16
+00:00:33,776 --> 00:00:36,098
+opened and the pump switched on,
+
+17
+00:00:36,098 --> 00:00:38,420
+one bed at a time.
+
+18
+00:00:38,420 --> 00:00:40,620
+It stops the moment the soil
+
+19
+00:00:40,620 --> 00:00:42,820
+is wet enough, or after a
+
+20
+00:00:42,820 --> 00:00:45,020
+safety timeout — whichever comes first.
+
+21
+00:00:45,020 --> 00:00:47,220
+No flooding, no guessing.
+
+22
+00:00:47,220 --> 00:00:49,122
+The whole thing runs off one
+
+23
+00:00:49,122 --> 00:00:51,025
+small solar panel, and it won
+
+24
+00:00:51,025 --> 00:00:52,927
+an engineering award for exactly this
+
+25
+00:00:52,927 --> 00:00:54,830
+reason.
+
+26
+00:00:54,830 --> 00:00:56,563
+Full build plans, parts list and
+
+27
+00:00:56,563 --> 00:00:58,297
+the actual code — link in
+
+28
+00:00:58,297 --> 00:01:00,030
+bio.

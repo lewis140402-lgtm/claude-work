@@ -1,0 +1,87 @@
+{
+  "topic": "What actually breaks first in an off-grid garden system",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "After enough hours running, something in this system breaks first. Here's what. It's never the Raspberry Pi. It's almost always something touching water or dirt. Drippers block first \u2014 one flake of algae in an unfiltered line and a whole bed stops getting water. Soil sensors go next, usually from being pulled loose rather than actually failing \u2014 a re-seat fixes most of them. Batteries fade slowest but hit hardest \u2014 a shaded panel or a worn cell shows up as a flat battery every morning. Know the order things fail in, and every fix is a five minute job, not a rebuild. The full troubleshooting guide covers all of it, symptom to fix \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "After enough hours running, something in this system breaks first. Here's what.",
+      "search_terms": [
+        "raspberry pi close up",
+        "electronics close up",
+        "vegetable garden raised beds"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "It's never the Raspberry Pi. It's almost always something touching water or dirt.",
+      "search_terms": [
+        "soil moisture sensor",
+        "irrigation pipe fitting",
+        "garden hose"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "Drippers block first \u2014 one flake of algae in an unfiltered line and a whole bed stops getting water.",
+      "search_terms": [
+        "drip irrigation system",
+        "water pump close up",
+        "irrigation pipe fitting"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "Soil sensors go next, usually from being pulled loose rather than actually failing \u2014 a re-seat fixes most of them.",
+      "search_terms": [
+        "garden sensor installation",
+        "vegetable garden raised beds",
+        "electronics soldering"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "mechanism_3",
+      "text": "Batteries fade slowest but hit hardest \u2014 a shaded panel or a worn cell shows up as a flat battery every morning.",
+      "search_terms": [
+        "solar panel installation",
+        "battery close up",
+        "cloudy sky"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "payoff",
+      "text": "Know the order things fail in, and every fix is a five minute job, not a rebuild.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "healthy vegetable plants",
+        "garden tools"
+      ]
+    },
+    {
+      "id": 7,
+      "beat": "cta",
+      "text": "The full troubleshooting guide covers all of it, symptom to fix \u2014 link in bio.",
+      "search_terms": [
+        "raspberry pi close up",
+        "solar panel installation",
+        "vegetable garden raised beds"
+      ]
+    }
+  ],
+  "title_youtube": "What actually breaks first in an off-grid garden system | Solar Smart Garden",
+  "title_tiktok": "What actually breaks first in an off-grid garden system",
+  "description": "What actually fails first in an off-grid solar garden system, and how to fix each one. Full troubleshooting guide linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

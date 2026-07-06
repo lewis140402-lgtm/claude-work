@@ -1,0 +1,77 @@
+{
+  "topic": "The \u00a310 fitting that lets your garden feed itself too (fertigation)",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "This ten pound fitting feeds every bed automatically, every time it waters. Feeding a garden by hand means a watering can, a jug of liquid feed, and remembering to actually do it. A venturi injector tees into the main water line and sucks a weak feed mix into the flow every time the pump runs \u2014 no electronics, no moving parts. For more control, a small dosing pump on a spare relay channel can feed one bed at a time with its own exact dose. Hungry crops get more, herbs get almost none \u2014 every bed fed exactly right, with zero extra effort. The full fertigation upgrade, with the dosing maths worked out, is in the build plans \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "This ten pound fitting feeds every bed automatically, every time it waters.",
+      "search_terms": [
+        "drip irrigation system",
+        "vegetable garden raised beds",
+        "garden hose fitting"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "Feeding a garden by hand means a watering can, a jug of liquid feed, and remembering to actually do it.",
+      "search_terms": [
+        "watering can",
+        "garden fertilizer",
+        "greenhouse tomato plants"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "A venturi injector tees into the main water line and sucks a weak feed mix into the flow every time the pump runs \u2014 no electronics, no moving parts.",
+      "search_terms": [
+        "water pump close up",
+        "irrigation pipe fitting",
+        "drip irrigation system"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "For more control, a small dosing pump on a spare relay channel can feed one bed at a time with its own exact dose.",
+      "search_terms": [
+        "electronics soldering",
+        "raspberry pi close up",
+        "solenoid valve"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "payoff",
+      "text": "Hungry crops get more, herbs get almost none \u2014 every bed fed exactly right, with zero extra effort.",
+      "search_terms": [
+        "healthy vegetable plants",
+        "greenhouse tomato plants",
+        "vegetable garden raised beds"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "cta",
+      "text": "The full fertigation upgrade, with the dosing maths worked out, is in the build plans \u2014 link in bio.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "solar panel installation",
+        "drip irrigation system"
+      ]
+    }
+  ],
+  "title_youtube": "The \u00a310 fitting that lets your garden feed itself too (fertigation) | Solar Smart Garden",
+  "title_tiktok": "The \u00a310 fitting that lets your garden feed itself too (fertigation)",
+  "description": "How a ten pound venturi fitting turns a watering system into a feeding system too. Full build plans linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

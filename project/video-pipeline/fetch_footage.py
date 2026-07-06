@@ -4,19 +4,24 @@ Stage 2: script.json -> one downloaded stock clip per scene, cached locally.
 
     python3 fetch_footage.py <slug>
 
-Uses the Pexels Videos API (free tier: https://www.pexels.com/api/, needs a
-free PEXELS_API_KEY in .env). Set PIPELINE_MOCK=1 to skip the network call
-and generate synthetic placeholder clips instead (useful for testing the
-rest of the pipeline without API keys or network access).
+Tries the Pexels Videos API first (free tier: https://www.pexels.com/api/,
+needs a free PEXELS_API_KEY in .env), then falls back to Pixabay's video API
+(also free: https://pixabay.com/api/docs/, needs a free PIXABAY_API_KEY) for
+any search term Pexels doesn't have a good result for — two independent
+free stock libraries cover far more search terms than either alone. Set
+PIPELINE_MOCK=1 to skip both and generate synthetic placeholder clips
+instead (useful for testing the rest of the pipeline without API keys or
+network access).
 """
 import argparse
 import sys
 
 import requests
 
-from common import FOOTAGE_DIR, MOCK_MODE, PEXELS_API_KEY, load_script, project_dir, run
+from common import FOOTAGE_DIR, MOCK_MODE, PEXELS_API_KEY, PIXABAY_API_KEY, load_script, project_dir, run
 
 PEXELS_SEARCH_URL = "https://api.pexels.com/videos/search"
+PIXABAY_SEARCH_URL = "https://pixabay.com/api/videos/"
 
 
 def scene_clip_path(slug: str, scene_id: int):
@@ -54,6 +59,36 @@ def fetch_from_pexels(query: str, dest_path):
     return True
 
 
+def pick_best_pixabay_file(hit: dict) -> str:
+    """Pixabay exposes fixed tiers (large/medium/small/tiny); medium is the sweet spot."""
+    videos = hit.get("videos", {})
+    for tier in ("medium", "small", "large", "tiny"):
+        if videos.get(tier, {}).get("url"):
+            return videos[tier]["url"]
+    return None
+
+
+def fetch_from_pixabay(query: str, dest_path):
+    resp = requests.get(
+        PIXABAY_SEARCH_URL,
+        params={"key": PIXABAY_API_KEY, "q": query, "per_page": 3, "safesearch": "true"},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    hits = resp.json().get("hits", [])
+    if not hits:
+        return False
+    link = pick_best_pixabay_file(hits[0])
+    if not link:
+        return False
+    video_resp = requests.get(link, timeout=60, stream=True)
+    video_resp.raise_for_status()
+    with open(dest_path, "wb") as f:
+        for chunk in video_resp.iter_content(chunk_size=1 << 16):
+            f.write(chunk)
+    return True
+
+
 def make_mock_clip(label: str, dest_path, duration: int = 6):
     """Generate a synthetic labeled test clip with ffmpeg — no network required."""
     safe_label = label.replace("'", "").replace(":", "-")[:40]
@@ -77,23 +112,34 @@ def fetch_all(slug: str):
             print(f"  scene {scene['id']}: cached, skipping")
             continue
 
-        if MOCK_MODE or not PEXELS_API_KEY:
-            reason = "PIPELINE_MOCK=1" if MOCK_MODE else "no PEXELS_API_KEY set"
+        if MOCK_MODE or not (PEXELS_API_KEY or PIXABAY_API_KEY):
+            reason = "PIPELINE_MOCK=1" if MOCK_MODE else "no PEXELS_API_KEY or PIXABAY_API_KEY set"
             print(f"  scene {scene['id']}: {reason} -> generating placeholder clip")
             make_mock_clip(scene["search_terms"][0], dest)
             continue
 
         got_clip = False
         for term in scene["search_terms"]:
-            print(f"  scene {scene['id']}: searching Pexels for '{term}'")
-            try:
-                if fetch_from_pexels(term, dest):
-                    got_clip = True
-                    break
-            except requests.RequestException as e:
-                print(f"    request failed: {e}", file=sys.stderr)
+            if PEXELS_API_KEY:
+                print(f"  scene {scene['id']}: searching Pexels for '{term}'")
+                try:
+                    if fetch_from_pexels(term, dest):
+                        got_clip = True
+                        break
+                except requests.RequestException as e:
+                    print(f"    Pexels request failed: {e}", file=sys.stderr)
+
+            if PIXABAY_API_KEY:
+                print(f"  scene {scene['id']}: searching Pixabay for '{term}'")
+                try:
+                    if fetch_from_pixabay(term, dest):
+                        got_clip = True
+                        break
+                except requests.RequestException as e:
+                    print(f"    Pixabay request failed: {e}", file=sys.stderr)
+
         if not got_clip:
-            print(f"  scene {scene['id']}: no Pexels match, falling back to placeholder")
+            print(f"  scene {scene['id']}: no match on Pexels or Pixabay, falling back to placeholder")
             make_mock_clip(scene["search_terms"][0], dest)
 
     print(f"Footage ready in {footage_dir}")

@@ -2,7 +2,7 @@
 """
 Stage 1: topic in -> script.json out.
 
-    python3 generate_script.py "How solar irrigation pumps actually work"
+    python3 generate_script.py "How this Raspberry Pi decides which garden bed to water"
 
 Produces projects/<slug>/script.json containing the voiceover script, a
 scene-by-scene breakdown, and Pexels search terms per scene.
@@ -22,10 +22,10 @@ import sys
 from common import save_script, slugify
 
 NICHE_VISUAL_BANK = [
-    "solar panel close up", "off grid solar farm", "water pump irrigation",
-    "farmer field irrigation", "engineer working outdoors", "sunrise over farmland",
-    "rural water tank", "solar panel installation", "drip irrigation system",
-    "renewable energy technician", "african farm sunrise", "DIY workshop tools",
+    "solar panel close up", "raspberry pi close up", "vegetable garden raised beds",
+    "drip irrigation system", "solar panel installation", "garden watering can",
+    "electronics soldering", "greenhouse tomato plants", "allotment garden",
+    "circuit board macro", "sunrise over garden", "DIY workshop tools",
 ]
 
 BEAT_TEMPLATES = [
@@ -70,22 +70,22 @@ def generate(topic: str) -> dict:
     voiceover_script = " ".join(s["text"] for s in scenes)
     return {
         "topic": topic,
-        "niche": "off-grid solar & DIY sustainable engineering",
+        "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
         "voiceover_script": voiceover_script,
         "scenes": scenes,
         "title_youtube": f"{topic} (Full Breakdown)",
         "title_tiktok": topic if len(topic) <= 100 else topic[:97] + "...",
         "description": (
-            f"{topic} — full explainer. Build guide for a real off-grid solar "
-            f"irrigation system linked in bio. #solar #engineering #offgrid"
+            f"{topic} — full explainer. Build plans for the real award-winning "
+            f"solar + Raspberry Pi smart garden linked in bio. #solar #raspberrypi #garden"
         ),
-        "hashtags": ["#solar", "#engineering", "#offgrid", "#sustainability", "#diy"],
+        "hashtags": ["#solar", "#raspberrypi", "#garden", "#diy", "#sustainability"],
     }
 
 
 def main():
     parser = argparse.ArgumentParser(description="Generate a video script from a topic.")
-    parser.add_argument("topic", help="Video topic, e.g. 'How solar irrigation pumps actually work'")
+    parser.add_argument("topic", help="Video topic, e.g. 'How this Raspberry Pi decides which garden bed to water'")
     args = parser.parse_args()
 
     slug = slugify(args.topic)

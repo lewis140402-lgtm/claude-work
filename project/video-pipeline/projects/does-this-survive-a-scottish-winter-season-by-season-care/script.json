@@ -1,0 +1,77 @@
+{
+  "topic": "Does this survive a Scottish winter? Season-by-season care",
+  "niche": "solar-powered, Raspberry Pi-controlled smart gardens",
+  "voiceover_script": "Scottish winter sunshine is brutal on solar. Here's what this system does about it. December sunshine drops to under an hour of usable sun a day \u2014 nowhere near enough to run anything. The honest answer: shut it down. Drain the pump and lines so frost can't split them, and bring the battery somewhere frost-free. Come spring, wipe the panel, reconnect the battery, flush the lines, and restart the service \u2014 the system comes back exactly as it left off. Nothing needs watering in a Scottish winter anyway \u2014 the system just waits for spring, same as the garden does. The full season-by-season care plan is in the build guide \u2014 link in bio.",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "hook",
+      "text": "Scottish winter sunshine is brutal on solar. Here's what this system does about it.",
+      "search_terms": [
+        "snow on garden",
+        "cloudy sky",
+        "solar panel installation"
+      ]
+    },
+    {
+      "id": 2,
+      "beat": "problem",
+      "text": "December sunshine drops to under an hour of usable sun a day \u2014 nowhere near enough to run anything.",
+      "search_terms": [
+        "winter garden",
+        "cloudy sky",
+        "solar panel close up"
+      ]
+    },
+    {
+      "id": 3,
+      "beat": "mechanism_1",
+      "text": "The honest answer: shut it down. Drain the pump and lines so frost can't split them, and bring the battery somewhere frost-free.",
+      "search_terms": [
+        "frost on plants",
+        "garden shed",
+        "battery close up"
+      ]
+    },
+    {
+      "id": 4,
+      "beat": "mechanism_2",
+      "text": "Come spring, wipe the panel, reconnect the battery, flush the lines, and restart the service \u2014 the system comes back exactly as it left off.",
+      "search_terms": [
+        "solar panel installation",
+        "vegetable garden raised beds",
+        "sunrise over garden"
+      ]
+    },
+    {
+      "id": 5,
+      "beat": "payoff",
+      "text": "Nothing needs watering in a Scottish winter anyway \u2014 the system just waits for spring, same as the garden does.",
+      "search_terms": [
+        "vegetable garden raised beds",
+        "healthy vegetable plants",
+        "sunrise over garden"
+      ]
+    },
+    {
+      "id": 6,
+      "beat": "cta",
+      "text": "The full season-by-season care plan is in the build guide \u2014 link in bio.",
+      "search_terms": [
+        "solar panel installation",
+        "vegetable garden raised beds",
+        "raspberry pi close up"
+      ]
+    }
+  ],
+  "title_youtube": "Does this survive a Scottish winter? Season-by-season care | Solar Smart Garden",
+  "title_tiktok": "Does this survive a Scottish winter? Season-by-season care",
+  "description": "How a solar-powered garden system handles a UK winter, season by season. Full build guide linked in bio.",
+  "hashtags": [
+    "#solar",
+    "#raspberrypi",
+    "#garden",
+    "#diy",
+    "#sustainability"
+  ]
+}

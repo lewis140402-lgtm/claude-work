@@ -9,18 +9,21 @@ voiceover, burned-in subtitles, 9:16 + 16:9 exports out.
 cd video-pipeline
 pip3 install -r requirements.txt
 cp .env.example .env
-# then edit .env and add PEXELS_API_KEY and ELEVENLABS_API_KEY
+# then edit .env and add PEXELS_API_KEY, PIXABAY_API_KEY, and ELEVENLABS_API_KEY
 ```
 
 Get a free Pexels key at https://www.pexels.com/api/ (200 req/hr, 20k/month —
-plenty for this volume). Get an ElevenLabs key at https://elevenlabs.io.
+plenty for this volume). Get a free Pixabay key at https://pixabay.com/api/docs/
+— it's used as a fallback whenever Pexels doesn't have a good clip for a
+scene's search terms, so between the two you'll rarely hit a placeholder in
+a real run. Get an ElevenLabs key at https://elevenlabs.io.
 
 `ffmpeg` must be installed and on your `PATH` (`ffmpeg -version` to check).
 
 ## Run it
 
 ```bash
-python3 make_video.py "How solar irrigation pumps actually work"
+python3 make_video.py "How this Raspberry Pi decides which garden bed to water"
 ```
 
 Output lands in `output/<slug>/<slug>_9x16.mp4` and `<slug>_16x9.mp4`.
@@ -47,8 +50,8 @@ timing).
    session using the prompt in `NICHE_AND_TOPICS.md` and drop the result into
    `script.json` before continuing — this is the "one prompt in" daily
    workflow described in `../OPERATIONS.md`.
-2. **`fetch_footage.py <slug>`** — downloads one clip per scene from Pexels
-   (tries each scene's search terms in order until one hits).
+2. **`fetch_footage.py <slug>`** — downloads one clip per scene: tries each
+   scene's search terms against Pexels first, then Pixabay, until one hits.
 3. **`generate_voiceover.py <slug>`** — sends the full voiceover script to
    ElevenLabs, gets back the duration, and splits it across scenes
    proportional to word count. Writes scene `start`/`end`/`duration` back
@@ -71,6 +74,7 @@ timing).
 - No music track — add a `-i background.mp3` bed in `assemble_video.py`'s
   final mux step if you want one (keep it under -20dB under the voiceover
   and check the track's licence).
-- Pexels free tier can dry up if a scene's search terms are too generic;
-  the fallback is a placeholder clip, so a real run may produce a video
-  with 1-2 mismatched scenes worth a manual re-search.
+- Pexels and Pixabay can both come up empty if a scene's search terms are
+  too generic or too specific; the final fallback is a placeholder clip, so
+  a real run may still produce a video with 1-2 mismatched scenes worth a
+  manual re-search.
