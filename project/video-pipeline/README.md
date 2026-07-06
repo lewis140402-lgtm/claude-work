@@ -23,7 +23,7 @@ a real run. Get an ElevenLabs key at https://elevenlabs.io.
 ## Run it
 
 ```bash
-python3 make_video.py "How solar irrigation pumps actually work"
+python3 make_video.py "How this Raspberry Pi decides which garden bed to water"
 ```
 
 Output lands in `output/<slug>/<slug>_9x16.mp4` and `<slug>_16x9.mp4`.

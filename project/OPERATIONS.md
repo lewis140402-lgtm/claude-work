@@ -11,7 +11,7 @@ Pick ONE of these each session, in order of priority if you're short on time:
 2. **Guide/product day**: `"Here's feedback/questions from buyers this week: <paste>"`
    — I turn it into V2 content fixes, FAQ additions, or new social posts.
 3. **Social day**: `"Post for today"` — I pull the next item from
-   `solar-irrigation-guide/social-posts/30_DAYS_POSTS.md`, personalise it
+   `solar-smart-garden/social-posts/30_DAYS_POSTS.md`, personalise it
    with anything you tell me happened this week, and hand you the exact text.
 4. **Review day** (weekly, not daily): `"Weekly numbers: sales <n>, revenue
    £<n>, video views <n>"` — I update the milestone tracker below and tell
@@ -88,5 +88,5 @@ don't let vanity metrics substitute for the sales count in this decision.
 
 - `PHASE1_EVALUATION.md` — the model scoring and decision
 - `video-pipeline/` — the faceless video system (Phase 2)
-- `solar-irrigation-guide/` — the product, landing page, copy, pricing, launch plan, social posts (Phase 3)
+- `solar-smart-garden/` — the product, landing page, copy, pricing, launch plan, social posts (Phase 3)
 - `trading-bot/` — optional paper-trading side project (build only after Phases 1-4 are solid)

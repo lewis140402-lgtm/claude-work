@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Solar Smart Garden — Build Plans</title>
+<style>
+  :root {
+    --ink: #16241d;
+    --paper: #faf7f0;
+    --accent: #d97b29;
+    --accent-dark: #b8611a;
+    --line: #e3ddcc;
+    --muted: #5c6b62;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  header.hero {
+    padding: 72px 0 56px;
+    border-bottom: 1px solid var(--line);
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.75rem;
+    color: var(--accent-dark);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .badge-award {
+    display: inline-block;
+    background: #fff3e6;
+    color: var(--accent-dark);
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    line-height: 1.15;
+    margin: 0 0 20px;
+  }
+  .sub { font-size: 1.15rem; color: var(--muted); max-width: 56ch; margin: 0 0 32px; }
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.05rem;
+  }
+  .cta:hover { background: var(--accent-dark); }
+  .cta-note { display: block; margin-top: 10px; font-size: 0.85rem; color: var(--muted); }
+  section { padding: 48px 0; border-bottom: 1px solid var(--line); }
+  h2 { font-size: 1.6rem; margin-bottom: 18px; }
+  ul.checks { list-style: none; padding: 0; margin: 0; }
+  ul.checks li { padding-left: 30px; position: relative; margin-bottom: 14px; }
+  ul.checks li::before {
+    content: "✓";
+    position: absolute; left: 0; top: 0;
+    color: var(--accent-dark); font-weight: 700;
+  }
+  .contents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .contents-grid div {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 18px;
+    font-size: 0.95rem;
+  }
+  .contents-grid strong { display: block; margin-bottom: 4px; }
+  .specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .specs-grid div {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 12px;
+  }
+  .specs-grid .num { font-size: 1.4rem; font-weight: 800; color: var(--accent-dark); display: block; }
+  .specs-grid .label { font-size: 0.85rem; color: var(--muted); }
+  .price-box {
+    background: #fff;
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 4px 16px rgba(217,123,41,0.15);
+    max-width: 380px;
+    margin-top: 24px;
+  }
+  .price { font-size: 2rem; font-weight: 800; margin: 8px 0 16px; }
+  .price .was { text-decoration: line-through; font-size: 1.1rem; color: var(--muted); font-weight: 400; margin-right: 8px; }
+  .price-box ul { padding-left: 18px; margin: 0 0 20px; font-size: 0.92rem; color: var(--muted); }
+  .price-box a.cta { display: block; width: 100%; text-align: center; padding: 14px 0; box-sizing: border-box; }
+  .faq h3 { font-size: 1.05rem; margin: 0 0 6px; }
+  .faq p { margin: 0 0 24px; color: var(--muted); }
+  footer { padding: 48px 0 80px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">The Solar Smart Garden — Build Plans</div>
+  <div class="badge-award">🏆 Winner, IChemE Young Engineers Award for Innovation and Sustainability</div>
+  <h1>Build a vegetable garden that waters itself — solar-powered, Raspberry Pi-controlled, no plug, no timer.</h1>
+  <p class="sub">Complete plans for the exact system built at the award-winning
+  Strathclyde Community Garden: a small solar panel keeps a battery charged,
+  and a Raspberry Pi checks the soil in each bed and waters only what's
+  actually dry. No electricity bill, no dead plants after a week away.</p>
+  <a class="cta" href="#pricing">Get the build plans — £9.99</a>
+  <span class="cta-note">Launch price for the first month, then £12.99. Instant download.</span>
+</header>
+
+<section>
+  <h2>Why not just buy a timer?</h2>
+  <p>A timer waters on a schedule whether the soil needs it or not — it
+  floods beds after rain and still leaves them dry in a heatwave. This
+  system checks moisture in each bed independently and waters only what's
+  thirsty, in the cool of the morning and evening, off one small solar
+  panel with no mains connection at all.</p>
+</section>
+
+<section>
+  <div class="specs-grid">
+    <div><span class="num">5</span><span class="label">beds watered independently</span></div>
+    <div><span class="num">12V</span><span class="label">safe extra-low voltage</span></div>
+    <div><span class="num">2</span><span class="label">weekends to build</span></div>
+    <div><span class="num">£265-360</span><span class="label">typical parts cost</span></div>
+    <div><span class="num">£0</span><span class="label">running cost — it's the sun</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>What's inside</h2>
+  <div class="contents-grid">
+    <div><strong>17-page build guide</strong>Every stage from empty beds to a garden that waters itself, with real photos from the working system.</div>
+    <div><strong>Working Python code</strong>The complete controller software, ready to copy onto your Pi.</div>
+    <div><strong>Parts list spreadsheet</strong>Typical UK prices and a tick-off column.</div>
+    <div><strong>Sizing calculators</strong>Solar panel, battery, and watering — type in your own numbers.</div>
+    <div><strong>Commissioning + troubleshooting</strong>A step-by-step switch-on checklist and symptom-by-symptom fixes.</div>
+    <div><strong>Bonus sections</strong>Per-bed liquid feeding (fertigation) and free recycled-bottle micro-greenhouses.</div>
+  </div>
+</section>
+
+<section>
+  <h2>Who this is for</h2>
+  <ul class="checks">
+    <li>Confident beginners — no electronics or coding experience assumed, everything runs at car-battery-safe 12V</li>
+    <li>Allotment growers and homesteaders who want to stop hand-watering or running a hose from the mains</li>
+    <li>Anyone with 2-8 beds (or a single balcony planter) — the design and the spreadsheet's calculators scale either way</li>
+  </ul>
+</section>
+
+<section id="pricing">
+  <h2>Get the plans</h2>
+  <div class="price-box">
+    <div class="price"><span class="was">£12.99</span>£9.99</div>
+    <ul>
+      <li>Full 17-page PDF build guide</li>
+      <li>Complete working Python controller code</li>
+      <li>Parts list + sizing calculators spreadsheet</li>
+      <li>Message me directly with build questions</li>
+    </ul>
+    <a class="cta" href="#">Buy now — £9.99</a>
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Questions</h2>
+  <h3>Do I need electronics or coding experience?</h3>
+  <p>No. Everything runs at 12V (like a car — nothing here can shock you),
+  and the software is provided complete; you copy it onto the Pi and
+  change a few labelled settings.</p>
+  <h3>Can I run it from a tap instead of a water tank?</h3>
+  <p>Yes — drop the pump, keep the valves, and fit a pressure reducer. The
+  guide covers both versions.</p>
+  <h3>I only have two beds, or eight — does it still work?</h3>
+  <p>Yes, the design and the spreadsheet's calculators scale either way. It
+  also works beautifully on a single balcony planter with one zone.</p>
+  <h3>What if I get stuck?</h3>
+  <p>Message me — I built this thing and I answer. It's a digital product
+  so there are no refunds, but I'll help you until it works.</p>
+</section>
+
+<footer>
+  <a class="cta" href="#pricing">Get the build plans — £9.99</a>
+</footer>
+
+</div>
+</body>
+</html>

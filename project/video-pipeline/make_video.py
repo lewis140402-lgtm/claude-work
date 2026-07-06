@@ -2,7 +2,7 @@
 """
 One command, one finished video:
 
-    python3 make_video.py "How solar irrigation pumps actually work"
+    python3 make_video.py "How this Raspberry Pi decides which garden bed to water"
 
 Runs the full pipeline: script -> footage -> voiceover -> subtitles -> assembly.
 Set PIPELINE_MOCK=1 (or leave PEXELS_API_KEY / ELEVENLABS_API_KEY unset) to
