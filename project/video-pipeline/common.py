@@ -10,6 +10,7 @@ ROOT = Path(__file__).parent
 load_dotenv(ROOT / ".env")
 
 PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "")
+PIXABAY_API_KEY = os.environ.get("PIXABAY_API_KEY", "")
 ELEVENLABS_API_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
 ELEVENLABS_VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID", "21m00Tcm4TlvDq8ikWAM")  # "Rachel", a default stock voice
 MOCK_MODE = os.environ.get("PIPELINE_MOCK", "0") == "1"
